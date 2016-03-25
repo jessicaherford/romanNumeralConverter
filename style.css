@@ -1,0 +1,22 @@
+body{
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/wood_1.jpg');
+  background-repeat: repeat;
+}
+
+.romanNumeralConverter{
+  padding: 20px;
+  width: 100%;
+	max-width: 40em;
+  background: rgba(238, 238, 238, .8);
+  margin: 2em auto;
+  height: 500px;
+  border-radius: 20px;
+}
+
+input{
+  width: 50px;
+}
+
+button, input{
+  margin: 20px;
+}
