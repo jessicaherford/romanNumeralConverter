@@ -4,13 +4,14 @@ body{
 }
 
 .romanNumeralConverter{
-  padding: 20px;
+  padding: 30px;
   width: 100%;
 	max-width: 40em;
   background: rgba(238, 238, 238, .8);
-  margin: 2em auto;
+  margin: 10em auto;
   height: 500px;
   border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
 input{

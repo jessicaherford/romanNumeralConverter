@@ -1,0 +1,23 @@
+{
+  "name": "romannumeralconverter",
+  "version": "1.0.0",
+  "description": "Playing around with a roman numeral converter.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicaherford/romanNumeralConverter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicaherford/romanNumeralConverter/issues"
+  },
+  "homepage": "https://github.com/jessicaherford/romanNumeralConverter#readme",
+  "dependencies": {
+    "vue": "^1.0.19",
+    "vue-resource": "^0.7.0"
+  }
+}

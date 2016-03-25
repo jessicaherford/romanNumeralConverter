@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class='romanNumeralConverter'>
+
+    <div class='romanNumeralConverter' id='app'>
     <h1 class='text-center'>Roman Numeral Converter</h1>
     <h4 class='text-center'>Enter A Roman Numeral To See Its Value</h4>
 
     <div class='row'>
-    <div class="text-center">
-    <input type="text">
+    <div class="text-center" >
+    <input type="text" class='text-center' autofocus v-model="number" v-on:keyup.13="romanNumeralConverter">
+    <h1>{{ number }}</h1>
     </div>
+
     </div>
 
     <div class='row'>
     <div class="text-center">
-    <button type="submit" class='btn btn-primary'>Submit</button>
+    <button type="submit" class='btn btn-primary' v-on:click="romanNumeralConverter">Submit</button>
     </div>
     </div>
+    </div>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="node_modules/vue-resource/dist/vue-resource.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="script.js" charset="utf-8"></script>
   </body>
