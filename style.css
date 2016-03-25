@@ -15,10 +15,18 @@ body{
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
+h4{
+  margin-bottom: 40px;
+}
+
 input{
   width: 50px;
 }
 
 button, input{
   margin: 20px;
+}
+
+button{
+  margin-top: 40px;
 }
